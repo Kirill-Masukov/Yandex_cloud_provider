@@ -2,7 +2,7 @@
 
 name: My-first-pipeline
 env :
-  PACKAGE_NAME: "deploy-ver-${{ githab.sha }}"
+  PACKAGE_NAME: "deploy-ver-${{ github.sha }}"
 
 on: 
   push:
